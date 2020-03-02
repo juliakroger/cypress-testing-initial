@@ -1,0 +1,6 @@
+cypress folder structure
+
+cypress/fixtures -> data that can be used on tests 
+cypress/integration -> where the tests goes
+cypress/plugins -> used to enable all external cypress extentions, ex image snapshots lib
+cypress/support -> runs before spec files, so we can create custom commands or overwrite existing ones 
